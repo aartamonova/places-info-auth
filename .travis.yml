@@ -2,3 +2,10 @@ language: python
 
 script:
   - python -m pytest -v --disable-pytest-warnings
+
+deploy:
+    provider: heroku
+    api_key: 4c33dfc0-7ada-475a-9ccf-85defbaf95e9
+    app: places-info-auth
+    on:
+        repo: artamonova-aleksandra/places-info-auth
