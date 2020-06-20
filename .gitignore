@@ -1,0 +1,9 @@
+# Gitignore for python-pycharm projects
+
+__pycache__/
+*.pyc
+.idea/
+venv/
+migrations/
+logs/
+databases/
